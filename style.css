@@ -1,19 +1,23 @@
-body {
-    font-family: 'League Spartan', sans-serif;
-    font-weight: 500; 
-}
 body{
   background-color:white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500; 
 }
 
 p{
   color:black;
   text-align : left;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500; 
 }
 h1{
   color:black;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500; 
 }
 
 h2{
   color:pink;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500; 
 }
