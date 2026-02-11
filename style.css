@@ -4,11 +4,11 @@ body{
 
 p{
   color:black;
-  text-align : left;
+  text-align : center;
 }
 h1{
   color: black;
-   text-align : center;
+   text-align :left;
   font-size : 40px
 }
 
