@@ -30,6 +30,21 @@ panel {
   font-size: 3rem;
 }
 img {
-  width: 20%;
+  width: 40%;
+  height: auto;
+}
+.bandeau {
+  display: flex;          
+  overflow-x: scroll;     
+  gap: 20px;             
+  padding: 20px;
+}
+
+.projet {
+  min-width: 300px;      
+}
+
+.projet img {
+  width: 100%;
   height: auto;
 }
