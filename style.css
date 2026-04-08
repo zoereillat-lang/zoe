@@ -25,8 +25,8 @@ body {
 panel {
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   font-size: 3rem;
 }
 img {
@@ -36,8 +36,8 @@ img {
 .bandeau {
   display: flex;          
   overflow-x: scroll;     
-  gap: 20px;             
-  padding: 20px;
+  gap: 10px;             
+  padding: 10px;
 }
 
 .projet {
