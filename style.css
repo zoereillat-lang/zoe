@@ -22,14 +22,14 @@ body {
   font-family: sans-serif;
 }
 
-.panel {
+panel {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
 }
-.image-typo {
-  width: 400px;
+typo-vibratoire.jpg {
+  width: 100px;
   height: auto;
 }
