@@ -43,7 +43,7 @@ img {
 }
 
 .projet {
-  flex: 20 0 20%;                 
+  flex: 20 20 20%;                 
   scroll-snap-align: start;
 }
 
