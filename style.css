@@ -38,17 +38,17 @@ img {
   overflow-x: auto;              
   scroll-snap-type: x mandatory; 
   -webkit-overflow-scrolling: touch;
-  gap: 20px;
-  padding: 20px;
+  gap: 10px;
+  padding: 10px;
 }
 
 .projet {
-  flex: 0 0 30%;                 
+  flex: 0 0 15%;                 
   scroll-snap-align: start;
 }
 
 .projet img {
-  width: 60%;
+  width: 100%;
   height: auto;
   border-radius: 10px;
 }
