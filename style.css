@@ -34,20 +34,21 @@ img {
   height: auto;
 }
 .bandeau {
-  display: flex;          
-  overflow-x: scroll;     
-  gap: 10px;             
-  padding: 10px;
-}
-.bandeau {
-  scroll-behavior: smooth;
+  display: flex;                 
+  overflow-x: auto;              
+  scroll-snap-type: x mandatory; 
+  -webkit-overflow-scrolling: touch;
+  gap: 20px;
+  padding: 20px;
 }
 
 .projet {
-  min-width: 300px;      
+  flex: 0 0 50%;                 
+  scroll-snap-align: start;
 }
 
 .projet img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
