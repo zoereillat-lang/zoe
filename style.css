@@ -52,3 +52,6 @@ img {
   height: auto;
   border-radius: 10px;
 }
+.bandeau::-webkit-scrollbar {
+  display: none;
+}
