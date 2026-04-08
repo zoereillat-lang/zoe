@@ -41,12 +41,12 @@ img {
 }
 
 .projet {
-  flex: 0 0 300px;   /* largeur fixe pour tous les projets */
+  flex: 0 0 200px;   /* largeur fixe pour tous les projets */
 }
 
 .projet img {
   width: 100%;
-  height: 400px;     /* même hauteur pour toutes */
+  height: 300px;     /* même hauteur pour toutes */
   object-fit: cover; /* empêche la déformation */
   border-radius: 10px;
 }
