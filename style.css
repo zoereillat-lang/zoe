@@ -34,22 +34,20 @@ img {
   height: auto;
 }
 .bandeau {
-  display: flex;                 
-  overflow-x: auto;              
-  scroll-snap-type: x mandatory; 
-  -webkit-overflow-scrolling: touch;
-  gap: 10px;
-  padding: 10px;
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
 }
 
 .projet {
-  flex: 0 0 20%;                 
-  scroll-snap-align: start;
+  flex: 0 0 300px;   /* largeur fixe pour tous les projets */
 }
 
 .projet img {
   width: 100%;
-  height: auto;
+  height: 400px;     /* même hauteur pour toutes */
+  object-fit: cover; /* empêche la déformation */
   border-radius: 10px;
 }
 .bandeau::-webkit-scrollbar {
